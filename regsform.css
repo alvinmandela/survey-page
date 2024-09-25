@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(12, 12, 77);
+    background-blend-mode: soft-light;
+    background-image: url("https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: block;
+    font-family: Tahoma;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;;
+}
+
+h1,p{
+    text-align: center;
+}
+fieldset{
+    border: none;
+
+}
+label{
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5rem 0;
+}
+input[type="submit"]{
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    font-size: large;
+    padding: auto;
+    border-color: white;
+    background-color: rgb(97, 84, 84);
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+color: white;
+}
+
+input[type="submit"]:active{
+ color: rgb(105, 117, 64)
+}
+
+.number,.email,.name{
+    margin: 1em auto;
+    padding: 5px;
+    width: 500px;
+    border-radius: 8px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.list{
+    display: block;
+}
+.reg{
+    display: inline-block;
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}

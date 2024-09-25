@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>vehiclesurvey</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="regsform.css">
+    </head>
+    <body>
+        <main>
+             <h1 id="title">Vehicle Survey</h1>
+             <p id="description">If you want to stand a chance to win a bespoke Bugatti Chiron, fill out this form:</p>
+             <form id="survey-form">
+                <fieldset>
+                    <label for="name-label">Name: <input id="name" type="text" placeholder="enter your name" required/>
+                    </label>
+                    <label for="email-label">Email: <input id="email" type="email" placeholder="enter email address"/ required></label>
+                    <label for="number-label">Number: <input id="number" type="number" placeholder="number" min="10" max="50" required/></label>
+                </fieldset>
+                <fieldset>
+                  <legend>What is your gender?</legend>
+<label for="male"> <input id="gender" type="radio" name="sex" value="male"/>Male 
+<label for ="female"> <input id="gender" name="sex" value="female" type="radio"/>Female
+<label for ="other"> <input id="gender" name="sex" value="other" type="radio"/>Other
+                    </fieldset>
+                <fieldset>
+                    <legend>What kind of a car person are you?</legend>
+                    <select id="dropdown">
+                        <option value="">choose one</option>
+                        <option value="1">Sports car</option>
+                        <option value="2">SUV</option>
+                        <option value="3">Truck</option>
+                        <option value="4">Truck-trailer</option>
+                        <option value="5">Other</option>
+                    </select>
+                    </fieldset>
+                <fieldset>
+                  <fieldset>
+                    <legend>Check the things you carry in your car:</legend>
+                    <ul>
+                   <li><input id="name" type="checkbox" value="1">Spare-wheel </li>
+                    <li><input id="name" type="checkbox" value="2">Torch </li>
+                      <li> <input id="name" type="checkbox" value="3">Wheel-spanner </li>
+                        <li> <input id="name" type="checkbox" value="4">Glasses </li>
+                          <li> <input id="name" type="checkbox" value="5">Wheel-spanner </li>
+                            <li>  <input id="name" type="checkbox" value="6">First-Aid Kit </li>
+                    </ul>
+                      </fieldset>
+                <label for="bio">Additional comments:
+                  <textarea id="comments" name=""additional-comments" rows="3" cols="30"></textarea>
+                </label>
+                </fieldset>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+             </form>
+            </main>
+    </body>
+</html>
